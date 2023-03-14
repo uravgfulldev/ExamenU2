@@ -30,56 +30,55 @@ class Regalos : AppCompatActivity() {
     fun agregarRegalos(opcion: String?){
         when(opcion){
             "Detalles" ->{
-                catalogo.add(Detalles(R.drawable.cumplebotanas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplecheve, "250"))
-                catalogo.add(Detalles(R.drawable.cumpleescolar, "250"))
-                catalogo.add(Detalles(R.drawable.cumplepaletas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplesnack, "250"))
-                catalogo.add(Detalles(R.drawable.cumplevinos, "250"))
+                catalogo.add(Detalles(R.drawable.cumplebotanas, "280"))
+                catalogo.add(Detalles(R.drawable.cumplecheve, "320"))
+                catalogo.add(Detalles(R.drawable.cumpleescolar, "330"))
+                catalogo.add(Detalles(R.drawable.cumplepaletas, "190"))
+                catalogo.add(Detalles(R.drawable.cumplesnack, "150"))
+                catalogo.add(Detalles(R.drawable.cumplevinos, "370"))
                 var titulo: TextView=findViewById(R.id.titulo_detalles)
                 titulo.text="Detalles"
             }
 
             "Globos" ->{
-                catalogo.add(Detalles(R.drawable.cumplebotanas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplecheve, "250"))
-                catalogo.add(Detalles(R.drawable.cumpleescolar, "250"))
-                catalogo.add(Detalles(R.drawable.cumplepaletas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplesnack, "250"))
-                catalogo.add(Detalles(R.drawable.cumplevinos, "250"))
+                catalogo.add(Detalles(R.drawable.globoamor, "250"))
+                catalogo.add(Detalles(R.drawable.globocumple, "250"))
+                catalogo.add(Detalles(R.drawable.globofestejo, "250"))
+                catalogo.add(Detalles(R.drawable.globonum, "250"))
+                catalogo.add(Detalles(R.drawable.globoregalo, "250"))
+                catalogo.add(Detalles(R.drawable.globos, "250"))
                 var titulo: TextView=findViewById(R.id.titulo_detalles)
                 titulo.text="Globos"
             }
 
             "Peluches" ->{
-                catalogo.add(Detalles(R.drawable.cumplebotanas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplecheve, "250"))
-                catalogo.add(Detalles(R.drawable.cumpleescolar, "250"))
-                catalogo.add(Detalles(R.drawable.cumplepaletas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplesnack, "250"))
-                catalogo.add(Detalles(R.drawable.cumplevinos, "250"))
+                catalogo.add(Detalles(R.drawable.peluchemario, "250"))
+                catalogo.add(Detalles(R.drawable.pelucheminecraft, "250"))
+                catalogo.add(Detalles(R.drawable.peluchepeppa, "250"))
+                catalogo.add(Detalles(R.drawable.peluches, "250"))
+                catalogo.add(Detalles(R.drawable.peluchesony, "250"))
+                catalogo.add(Detalles(R.drawable.peluchestich, "250"))
+                catalogo.add(Detalles(R.drawable.peluchevarios, "250"))
                 var titulo: TextView=findViewById(R.id.titulo_detalles)
                 titulo.text="Peluches"
             }
 
             "Regalos" ->{
-                catalogo.add(Detalles(R.drawable.cumplebotanas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplecheve, "250"))
-                catalogo.add(Detalles(R.drawable.cumpleescolar, "250"))
-                catalogo.add(Detalles(R.drawable.cumplepaletas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplesnack, "250"))
-                catalogo.add(Detalles(R.drawable.cumplevinos, "250"))
+                catalogo.add(Detalles(R.drawable.regalos, "250"))
+                catalogo.add(Detalles(R.drawable.regaloazul, "250"))
+                catalogo.add(Detalles(R.drawable.regalocajas, "250"))
+                catalogo.add(Detalles(R.drawable.regalocolores, "250"))
+                catalogo.add(Detalles(R.drawable.regalobebe, "250"))
+                catalogo.add(Detalles(R.drawable.regalovarios, "250"))
                 var titulo: TextView=findViewById(R.id.titulo_detalles)
                 titulo.text="Regalos"
             }
 
             "Tazas" ->{
-                catalogo.add(Detalles(R.drawable.cumplebotanas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplecheve, "250"))
-                catalogo.add(Detalles(R.drawable.cumpleescolar, "250"))
-                catalogo.add(Detalles(R.drawable.cumplepaletas, "250"))
-                catalogo.add(Detalles(R.drawable.cumplesnack, "250"))
-                catalogo.add(Detalles(R.drawable.cumplevinos, "250"))
+                catalogo.add(Detalles(R.drawable.tazaabuela, "250"))
+                catalogo.add(Detalles(R.drawable.tazas, "250"))
+                catalogo.add(Detalles(R.drawable.tazalove, "250"))
+                catalogo.add(Detalles(R.drawable.tazaquiero, "250"))
                 var titulo: TextView=findViewById(R.id.titulo_detalles)
                 titulo.text="Tazas"
             }
